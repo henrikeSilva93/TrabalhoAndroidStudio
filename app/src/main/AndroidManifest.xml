@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Projeto_android_app">
         <activity
+            android:name=".ListagemActivity"
+            android:exported="false" />
+        <activity
             android:name=".myApp"
             android:exported="true">
             <intent-filter>
@@ -18,7 +21,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
