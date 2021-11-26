@@ -24,6 +24,10 @@ class ListagemActivity : AppCompatActivity() {
         listaReceitas.add(receita1)
         val receita2 = Receitas("Churrasco ", "Lorem ipsun dollor sit amen")
         listaReceitas.add(receita2)
+        val receita3 = Receitas("Strogonoff de Frango ", "Lorem ipsun dollor sit amen")
+        listaReceitas.add(receita3)
+        val receita4 = Receitas("Strogonoff de carne ", "Lorem ipsun dollor sit amen")
+        listaReceitas.add(receita4)
 
     }
 }
